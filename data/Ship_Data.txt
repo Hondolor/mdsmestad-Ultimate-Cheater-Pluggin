@@ -500,6 +500,8 @@ ship "S-Kestrel"
 	turret 100.5 73.5 "Heavy Laser Turret"
 	turret -25.5 6 "Heavy Anti-Missile Turret"
 	turret 24.5 6 "Heavy Anti-Missile Turret"
+	fighter -71.5 96.5 under
+	figter 71.5 96.5 under
 	explode "small explosion" 25
 	explode "medium explosion" 35
 	explode "big explosion" 45
@@ -664,8 +666,10 @@ ship "S-Kestrel Super"
 	gun 114 73
 	gun 132 71
 	gun 0 -182
-
-
+	fighter -71.5 96.5 under
+	fighter 71.5 96.5 under
+	drone 147 94 under
+	drone -147 94 under
 	explode "small explosion" 25
 	explode "medium explosion" 35
 	explode "big explosion" 45
